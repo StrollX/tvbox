@@ -1,0 +1,57 @@
+{
+  "spider": "https://strollx.github.io/tvbox/tv.jar",
+  "logo": "https://example.com/logo.png",
+  "wallpaper": "https://example.com/wallpaper.jpg",
+  "sites": [
+    {
+      "key": "电影天堂资源",
+      "name": "电影天堂资源",
+      "type": 0,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": "",
+      "extType": "json"
+    },
+    {
+      "name": "黑木耳",
+      "key": "黑木耳",
+      "type": 1,
+      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "extType": "json",
+      "ext": ""
+    }
+  ],
+  "lives": {
+    "undefined": [
+      {
+        "name": "live",
+        "url": "http://xhztv.top/xhz/live.txt",
+        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "epg": "http://diyp.112114.xyz/?ch={name}&date={date}"
+      }
+    ]
+  },
+  "parses": [
+    {
+      "name": "电影天堂资源",
+      "type": 1,
+      "url": "https://vip.dyttzyplay.com/?url=",
+      "headers": {}
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "QQ",
+    "iqiyi",
+    "qiyi",
+    "letv"
+  ]
+}
