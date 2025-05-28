@@ -1,7 +1,5 @@
 {
-  "spider": "https://github.com/pickear/tbs/blob/main/spider/custom_spider22091401.jar",
-  "logo": "https://example.com/logo.png",
-  "wallpaper": "https://example.com/wallpaper.jpg",
+  "spider": "",
   "sites": [
     {
       "name": "黑木耳",
@@ -41,13 +39,13 @@
   "parses": [
     {
       "name": "黑木耳",
-      "type": 1,
+      "type": 3,
       "url": " https://hoplayer.com/index.html?url=",
       "headers": {}
     },
     {
       "name": "如意资源",
-      "type": 1,
+      "type": 3,
       "url": "https://ryplayer.com?url=",
       "headers": {}
     }
