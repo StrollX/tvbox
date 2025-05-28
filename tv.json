@@ -1,20 +1,8 @@
 {
-  "spider": "https://strollx.github.io/tvbox/tv.jar",
+  "spider": "https://github.com/pickear/tbs/blob/main/spider/custom_spider22091401.jar",
   "logo": "https://example.com/logo.png",
   "wallpaper": "https://example.com/wallpaper.jpg",
   "sites": [
-    {
-      "key": "电影天堂资源",
-      "name": "电影天堂资源",
-      "type": 0,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": "",
-      "extType": "json"
-    },
     {
       "name": "黑木耳",
       "key": "黑木耳",
@@ -25,6 +13,18 @@
       "changeable": 1,
       "filterable": 1,
       "extType": "json",
+      "ext": ""
+    },
+    {
+      "name": "如意资源",
+      "key": "如意资源",
+      "type": 1,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "extType": "text",
       "ext": ""
     }
   ],
@@ -40,9 +40,15 @@
   },
   "parses": [
     {
-      "name": "电影天堂资源",
+      "name": "黑木耳",
       "type": 1,
-      "url": "https://vip.dyttzyplay.com/?url=",
+      "url": " https://hoplayer.com/index.html?url=",
+      "headers": {}
+    },
+    {
+      "name": "如意资源",
+      "type": 1,
+      "url": "https://ryplayer.com?url=",
       "headers": {}
     }
   ],
