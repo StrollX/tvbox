@@ -74,16 +74,7 @@
       "ext": ""
     }
   ],
-  "lives": {
-    "undefined": [
-      {
-        "name": "live",
-        "url": "http://xhztv.top/xhz/live.txt",
-        "logo": "https://epg.112114.xyz/logo/{name}.png",
-        "epg": "http://diyp.112114.xyz/?ch={name}&date={date}"
-      }
-    ]
-  },
+  "lives": {},
   "parses": [
     {
       "name": "如意资源",
