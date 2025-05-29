@@ -2,22 +2,70 @@
   "spider": "",
   "sites": [
     {
-      "name": "黑木耳",
-      "key": "黑木耳",
+      "name": "如意资源",
+      "key": "ruyi",
       "type": 1,
-      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "extType": "json",
+      "extType": "text",
       "ext": ""
     },
     {
-      "name": "如意资源",
-      "key": "如意资源",
+      "name": "天涯资源",
+      "key": "tyyszy",
       "type": 1,
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "extType": "text",
+      "ext": ""
+    },
+    {
+      "name": "小猫咪资源",
+      "key": "xmm",
+      "type": 1,
+      "api": "https://zy.xiaomaomi.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "extType": "text",
+      "ext": ""
+    },
+    {
+      "name": "非凡影视",
+      "key": "ffzy",
+      "type": 1,
+      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "extType": "text",
+      "ext": ""
+    },
+    {
+      "name": "黑木耳",
+      "key": "heimuer",
+      "type": 1,
+      "api": "https://json.heimuer.xyz/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "extType": "text",
+      "ext": ""
+    },
+    {
+      "name": "360资源",
+      "key": "zy360",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -38,15 +86,39 @@
   },
   "parses": [
     {
+      "name": "如意资源",
+      "type": 3,
+      "url": "https://ryplayer.com?url=",
+      "headers": {}
+    },
+    {
+      "name": "天涯资源",
+      "type": 3,
+      "url": "https://tyyszywjx.com/?url=",
+      "headers": {}
+    },
+    {
+      "name": "xmm",
+      "type": 3,
+      "url": "https://zy.xiaomaomi.cc",
+      "headers": {}
+    },
+    {
+      "name": "非凡影视",
+      "type": 3,
+      "url": "https://svip.ffzyplay.com/?url=",
+      "headers": {}
+    },
+    {
       "name": "黑木耳",
       "type": 3,
       "url": " https://hoplayer.com/index.html?url=",
       "headers": {}
     },
     {
-      "name": "如意资源",
+      "name": "360资源",
       "type": 3,
-      "url": "https://ryplayer.com?url=",
+      "url": "https://www.360jiexi.com/player/?url= ",
       "headers": {}
     }
   ],
@@ -56,6 +128,12 @@
     "QQ",
     "iqiyi",
     "qiyi",
-    "letv"
+    "letv",
+    "ruyi",
+    "tyyszy",
+    "xmm",
+    "ffzy",
+    "heimuer",
+    "zy360"
   ]
 }
