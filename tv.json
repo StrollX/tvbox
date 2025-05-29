@@ -26,8 +26,8 @@
       "ext": ""
     },
     {
-      "name": "小猫咪资源",
-      "key": "xmm",
+      "name": "iqiyi资源",
+      "key": "iqiyi",
       "type": 1,
       "api": "https://zy.xiaomaomi.cc/api.php/provide/vod",
       "searchable": 1,
@@ -98,9 +98,9 @@
       "headers": {}
     },
     {
-      "name": "xmm",
+      "name": "iqiyi资源",
       "type": 3,
-      "url": "https://zy.xiaomaomi.cc",
+      "url": "https://www.iqiyizyjx.com/?url=",
       "headers": {}
     },
     {
@@ -123,15 +123,9 @@
     }
   ],
   "flags": [
-    "youku",
-    "qq",
-    "QQ",
-    "iqiyi",
-    "qiyi",
-    "letv",
     "ruyi",
     "tyyszy",
-    "xmm",
+    "iqiyi",
     "ffzy",
     "heimuer",
     "zy360"
